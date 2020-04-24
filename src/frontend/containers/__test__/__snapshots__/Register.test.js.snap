@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel Item Component Match Snapshot 1`] = `
+Array [
+  <header
+    className="header"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Logo"
+        className="header__img"
+        src="test-file-stubs"
+      />
+    </a>
+    <div
+      className="header__menu"
+    >
+      <div
+        className="header__menu--profile"
+      >
+        <img
+          alt="user"
+          src="test-file-stubs"
+        />
+        <p>
+          Perfil
+        </p>
+      </div>
+      <ul>
+        <li>
+          <a
+            href="/login"
+            onClick={[Function]}
+          >
+            Iniciar Sesión
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>,
+  <section
+    className="register"
+  >
+    <section
+      className="register_container"
+    >
+      <h2>
+        Registo de Usuario
+      </h2>
+      <form
+        action=""
+        className="register_container_form"
+        onSubmit={[Function]}
+      >
+        <input
+          className="input"
+          name="name"
+          onChange={[Function]}
+          placeholder="Nombre de Usuario"
+          required={true}
+          type="text"
+        />
+        <input
+          className="input"
+          name="email"
+          onChange={[Function]}
+          placeholder="Coreo Electronico"
+          required={true}
+          type="email"
+        />
+        <input
+          className="input"
+          name="password"
+          onChange={[Function]}
+          placeholder="Contraseña"
+          type="password"
+        />
+        <button
+          className="button"
+          type="submit"
+        >
+          Registrarme
+        </button>
+      </form>
+      <p
+        className="register_container-register"
+      >
+         
+        Ya tienes una cuenta
+        <a
+          href="/login"
+          onClick={[Function]}
+        >
+          Iniciar sesión
+        </a>
+      </p>
+    </section>
+  </section>,
+]
+`;

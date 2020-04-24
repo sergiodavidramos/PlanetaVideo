@@ -1,0 +1,14 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+body {
+	margin: 0px;
+	font-family: $theme-font;
+    /* background-color: #8F57FD; */
+    background: linear-gradient($main-color, #21c08b);
+}
+*{
+    box-sizing: border-box;
+}
+::placeholder {
+    color: white;
+  }

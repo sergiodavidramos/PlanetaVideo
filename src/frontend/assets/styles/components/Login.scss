@@ -1,0 +1,77 @@
+.login {
+    background: linear-gradient(#ab88ff, #21c08b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+  }
+  
+  .login_container {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 2px 10px 25px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login_container-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login_container-form label {
+    font-size: 14px;
+  }
+  
+  .login_container-remember {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .login_container-remember a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .login_container-remember a:hover {
+    text-decoration: underline;
+  }
+  
+  .login_container-social-media > div {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .login_container-social-media > div > img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .login_container-register {
+    font-size: 14px;
+  }
+  
+  .login_container-register a {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .login_container-register a:hover {
+    text-decoration: underline;
+  }
+  
